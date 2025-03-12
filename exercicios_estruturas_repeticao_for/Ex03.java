@@ -24,7 +24,8 @@ public class Ex03 {
             double numeroMedia2 = sc.nextDouble();
             double numeroMedia3 = sc.nextDouble();
 
-            double mediaPonderada = (peso1 * numeroMedia1 + peso2 * numeroMedia2 + peso3 * numeroMedia3) / (peso1 + peso2 + peso3);
+            double mediaPonderada = (peso1 * numeroMedia1 + peso2 * numeroMedia2 + peso3 * numeroMedia3) /
+                    (peso1 + peso2 + peso3);
 
             mediasPonderadas[i] = mediaPonderada;
         }
